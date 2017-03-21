@@ -2,6 +2,7 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<i><p class="meta">{{ page.date | date_to_string }}</p></i>
+<!-- <p class="meta">{{ page.date | date_to_string }}</p> -->
+<code class="highlighter-rouge">{{ page.date | date_to_string }}</code>
 
 {{ content }}
