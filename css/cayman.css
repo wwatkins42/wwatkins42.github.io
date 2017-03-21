@@ -144,7 +144,7 @@ a:hover { text-decoration: underline; }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } } */
 
-.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #F6AE2D, #425CAA); }
+.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #425CAA, #2F4858); }
 /* .page-header { color: #fff; text-align: center; background-color: #159957; background-image: url("https://cdn.rawgit.com/wwatkins42/wwatkins42.github.io/master/images/2001-A-Space-Odyssey-2.jpg"); } */
 
 @media screen and (min-width: 128em) { .page-header { padding: 1rem 1rem; } }
