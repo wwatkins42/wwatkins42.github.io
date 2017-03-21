@@ -25,5 +25,3 @@ Prediction phase:
 * `-r` plot training animation.
 
 ![linreg_screenshot_1](/images/Screen%20Shot%202017-03-20%20at%203.57.57%20PM.png?raw=true "linear_regression")
-
-&#8592; [Index](https://wwatkins42.github.io/index)
