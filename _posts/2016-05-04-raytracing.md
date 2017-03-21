@@ -63,5 +63,3 @@ __Bonus:__
 - Stereoscopic camera for 3D view
 - Texture rotation
 - Ascii shell display (--shell option)
-
-&#8592; [Index](https://wwatkins42.github.io/index)
