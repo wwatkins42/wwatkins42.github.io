@@ -36,5 +36,3 @@ __Installation:__
 ![rtv1_screenshot_2](https://cdn.rawgit.com/wwatkins42/42_C_Projects/master/screenshots/screenshot_rtv1_2.png "rtv1")
 ![rtv1_screenshot_1](https://cdn.rawgit.com/wwatkins42/42_C_Projects/master/screenshots/screenshot_rtv1_1.png "rtv1")
 ![rtv1_screenshot_3](https://cdn.rawgit.com/wwatkins42/42_C_Projects/master/screenshots/screenshot_rtv1_3.png "rtv1")
-
-&#8592; [Index](https://wwatkins42.github.io/index)
