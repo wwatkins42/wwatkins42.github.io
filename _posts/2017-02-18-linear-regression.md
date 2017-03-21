@@ -1,6 +1,3 @@
-# Linear Regression
-
-`18-02-2017`
 `1 day`
 `1 person`
 
