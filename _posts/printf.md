@@ -1,0 +1,25 @@
+# Ft_printf
+
+`05-03-2016`
+`1 week`
+`1 person`
+
+---
+
+_The goal of this project is to make you recode the function "printf"._
+
+__Installation:__
+
+* `git clone https://github.com/wwatkins42/42_C_Projects.git`
+* `cd ./42_C_Projects/Ft_printf`
+* `make`
+
+__You must handle:__
+> - The following conversion: `s` `S` `p` `d` `D` `i` `o` `O` `u` `U` `x` `X` `c` `C`.
+> - The `%%`.
+> - The following flags: `#` `0` `-` `+` and `space`.
+> - The minimum field size.
+> - The accuracy.
+> - The following modifiers: `hh` `h` `l` `ll` `j` `z`.
+
+&#8592; [Index](https://wwatkins42.github.io/index)

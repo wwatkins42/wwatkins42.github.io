@@ -1,0 +1,25 @@
+# Computer-v1
+
+`02-03-2017`
+`1 day`
+`1 person`
+
+---
+
+_A program to solve second degree polynomial equation and below, the equation terms must be of the shape a*x^p._
+
+__Installation:__
+
+* `git clone https://github.com/wwatkins42/Computer-v1.git`
+* `cd ./Computer-v1`
+* `python computerv1.py`
+
+**Usage:**
+* `python computerv1.py equation`
+
+**Example:**
+* `python computerv1.py "1.5 * X^1 + 8.3 * X^2 - 2 * X^0 = -4.1 * X^1 + 2 * X^0"`
+
+![screenshot](/images/computerv1.png?raw=true)
+
+&#8592; [Index](https://wwatkins42.github.io/index)

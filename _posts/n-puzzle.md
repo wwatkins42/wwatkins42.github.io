@@ -1,0 +1,32 @@
+# N-Puzzle
+
+`14-02-2017`
+`1 week`
+`2 persons`
+
+---
+
+_Like a 9-puzzle solver but for n dimensions and using A* pathfinding algorithm._
+
+__Installation:__
+
+* `git clone https://github.com/wwatkins42/N-Puzzle.git`
+* `cd ./N-Puzzle`
+* `make`
+* `./npuzzle`
+
+**Usage:**
+* `./npuzzle [<(npuzzle-gen.py [-u] [-s] [-i iterations] size)]`
+
+**Options:**
+* `-s`, `--solvable` ensures that the generated puzzle is solvable.
+* `-u`, `--unsolvable` ensures that the generated puzzle is unsolvable.
+* `-i`, `--iterations` sets the number of iterations for the random puzzle generation.
+
+**Example:**
+* `./npuzzle <(npuzzle-gen.py -s -i 4096 5)`
+Will solve a `solvable` puzzle generated with `4096 iterations` of size `5*5`.
+
+![screenshot](/images/n-puzzle-1.png?raw=true)
+
+&#8592; [Index](https://wwatkins42.github.io/index)
