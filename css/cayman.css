@@ -146,7 +146,7 @@ a:hover { text-decoration: underline; }
 
 /* .page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #3F3244, #FFC53A); }
  */
-.page-header { color: #fff; text-align: center; background-color: #159957; background-image: url("https://cdn.rawgit.com/wwatkins42/wwatkins42.github.io/master/images/24905639563_a1c8403a91_o.jpg"); }
+.page-header { color: #fff; text-align: center; background-color: #159957; background-image: url("https://cdn.rawgit.com/wwatkins42/wwatkins42.github.io/master/images/2001-A-Space-Odyssey-2.jpg"); }
 @media screen and (min-width: 128em) { .page-header { padding: 1rem 1rem; } }
 @media screen and (min-width: 92em) and (max-width: 128em) { .page-header { padding: 1rem 1rem; } }
 @media screen and (max-width: 92em) { .page-header { padding: 2rem 1rem; } }
