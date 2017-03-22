@@ -10,7 +10,14 @@ title: {{ site.name }}
 <!--       <li><code class="highlight-rouge">{{ post.date | date_to_string }}</code><code class="highlight-rouge" style="background-color: #FFFC5E;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li> -->
       <li>
         <code class="highlight-rouge">{{ post.date | date_to_string }}</code>
-        <code class="highlight-rouge" style="background-color: {{ post.color }};">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        
+        {% if post.categories == "graphical" %}
+          <code class="highlight-rouge" style="background-color: #FFEDAF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% elif post.categories == "algorithm" %}
+          <code class="highlight-rouge" style="background-color: #AFCCFF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% elif post.categories == "unix" %}
+          <code class="highlight-rouge" style="background-color: #B3FFAF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
