@@ -1,3 +1,8 @@
+---
+layout: post
+categories: graphical
+---
+
 `2 weeks`
 `1 person`
 

@@ -1,3 +1,8 @@
+---
+layout: post
+categories: algorithm
+---
+
 `1 day`
 `1 person`
 
