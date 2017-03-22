@@ -8,7 +8,7 @@ title: {{ site.name }}
   <ul class="posts">
     {% for post in site.posts %}
 <!--       <li><code class="highlight-rouge">{{ post.date | date_to_string }}</code><code class="highlight-rouge" style="background-color: #FFFC5E;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li> -->
-      <li><code class="highlight-rouge">{{ post.date | date_to_string }}</code><code class="{{ post.categories }}">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      <li><code class="highlight-rouge">{{ post.date | date_to_string }}</code><code class="highlight-rouge" style="background-color: {{ post.color }};">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
