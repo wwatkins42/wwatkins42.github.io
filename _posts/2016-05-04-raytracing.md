@@ -1,3 +1,8 @@
+---
+layout: post
+categories: graphical
+---
+
 `8 weeks`
 `4 persons`
 
