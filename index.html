@@ -10,11 +10,11 @@ title: {{ site.name }}
       <li>
         <code class="highlight-rouge">{{ post.date | date_to_string }}</code>
         {% if post.categories contains 'graphical' %}
-          <code class="highlight-rouge" style="background-color: #FFF3C9; width: 8em;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <code class="highlight-rouge" style="background-color: #FFF3C9;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% elsif post.categories contains 'algorithm' %}
-          <code class="highlight-rouge" style="background-color: #CCDEFF; width: 8em;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <code class="highlight-rouge" style="background-color: #CCDEFF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% elsif post.categories contains 'unix' %}
-          <code class="highlight-rouge" style="background-color: #FFD9CE; width: 8em;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <code class="highlight-rouge" style="background-color: #FFD9CE;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% else %}
           <code class="highlight-rouge">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% endif %}
