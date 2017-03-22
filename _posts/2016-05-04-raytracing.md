@@ -122,17 +122,18 @@ __Installation:__
 
 **Keys:**
 * `w` `a` `s` `d`: move around.
-* `shift`, `space`: move down/up.
+* `shift` `space`: move down/up.
 * `m`: switch mouse mode.
-* `mouse`: rotate view.
-* `1`, `2`: filters invert/gray.
-* `numpad +`, `numpad -`: zoom in/out.
-* `+`, `-`: change light intensity.
+* `mouse` or  `i` `j` `k` `l`: rotate view.
+* `1` `2`: filters invert/gray.
+* `numpad +` `numpad -`: zoom in/out.
+* `+` `-`: change light intensity.
 * `mouse left`: select object (on cursor).
 * `ctrl + mouse` or &#8593; &#8592; &#8595; &#8594;: move selected object.
 * `cmd + mouse`: rotate selected object.
 * `delete`: delete selected object.
-* `[`, `]`: save scene/screenshot.
+* `[` `]`: save scene/screenshot.
+* `` ` ``: display stats.
 * `esc` quit program.
 
 ![objects](https://cloud.githubusercontent.com/assets/16082039/15098030/c97af69c-1530-11e6-9d6f-1b840b07828a.png)
