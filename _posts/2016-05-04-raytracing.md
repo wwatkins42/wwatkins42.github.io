@@ -8,7 +8,7 @@ categories: graphical
 
 ---
 __Subject:__
-##### Introduction:
+##### Objectives:
 ```
 When it comes to render 3 dimensions computer generated images there is 2 possible
 approaches: “rasterization”, which is used by almost all graphic engines because of it’s
@@ -21,10 +21,6 @@ ray tracer coded in C, normed, awesome and functionnal.
 And if you are all depressed reading this topic, think of the long way already paved by
 the lunatics from ILM, Pixar (or any other computer-generated images studio) that all
 have deployed infinite creativity to get better in that art) relax, take life easy and bound
-```
-##### Objectives:
-```
-
 ```
 ##### Constraints:
 ```
