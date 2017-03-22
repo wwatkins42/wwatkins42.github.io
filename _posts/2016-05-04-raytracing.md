@@ -121,6 +121,16 @@ __Installation:__
 * `./rt -s resource/scene/bonus/reflection.yml -w 1920 -h 1080`
 
 **Keys:**
+* `w` `a` `s` `d`: move around.
+* `shift`, `space`: move down/up.
+* `m`: switch mouse mode.
+* `mouse`: rotate view.
+* `1`, `2`: filters invert/gray.
+* `numpad +`, `numpad -`: zoom in/out.
+* `+`, `-`: change light intensity.
+* `mouse left`: select object (on cursor).
+* `ctrl + mouse`: move slected object.
+* `delete`: delete selected object.
 * `esc` quit program.
 
 ![objects](https://cloud.githubusercontent.com/assets/16082039/15098030/c97af69c-1530-11e6-9d6f-1b840b07828a.png)
