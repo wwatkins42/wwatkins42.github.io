@@ -7,7 +7,7 @@ title: {{ site.name }}
   <h1>Projects</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><code class="highlight-rouge" style="background-color: #90c3d4;">{{ post.date | date_to_string }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      <li><code class="highlight-rouge">{{ post.date | date_to_string }}</code><code class="highlight-rouge" style="background-color: #FFFC5E;">Graphical</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
