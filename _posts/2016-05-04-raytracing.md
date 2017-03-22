@@ -36,7 +36,6 @@ part is worth 0 points and the options will only bring you points IF the mandato
 is 100% complete. The project will only be validated if a substantial volume of options
 is present when you defend the project.
 ```
-##### Constraints:
 ```
 The elements you need to create are as follows:
 • Implement the Ray-Tracing method to create a computer generated image.
@@ -55,6 +54,7 @@ Those elements are required in the RTv1 project, that we STRONGLY recommend
 that you do prior. For the RT, you won’t have any point (and so no chance to validate
 the project) if you only do this.
 ```
+##### Constraints:
 ```
 Within the mandatory part, you are allowed to use only the following libc functions:
 ◦ open
