@@ -1,7 +1,3 @@
-.graphical { border-radius: 0.3rem; font-size: 0.9rem; padding: 2px 4px; color: #567482; background-color: #FFEDAF; }
-.algorithm { border-radius: 0.3rem; font-size: 0.9rem; padding: 2px 4px; color: #567482; background-color: #AFCCFF; }
-.unix { border-radius: 0.3rem; font-size: 0.9rem; padding: 2px 4px; color: #567482; background-color: #B3FFAF; }
-
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
