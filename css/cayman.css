@@ -166,8 +166,8 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 42em) { .main-content { padding: 2rem 1rem; font-size: 1rem; } }
 .main-content img { min-width: 125%; max-width: 125%; border-radius: 8px; position: relative; left: -12.5%;}
 /* .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #159957; } */
-.main-content h1, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #159957; }
-.main-content h2 { margin-top: 1rem; margin-bottom: 0rem; font-weight: normal; color: #06A77D; }
+.main-content h1, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #06A77D; }
+.main-content h2 { margin-top: 0rem; margin-bottom: 0rem; font-weight: normal; color: #06A77D; }
 
 .main-content p { margin-bottom: 1em; }
 .main-content code { padding: 2px 4px; font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 0.9rem; color: #567482; background-color: #f3f6fa; border-radius: 0.3rem; }
