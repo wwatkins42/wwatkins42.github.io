@@ -11,11 +11,11 @@ title: {{ site.name }}
       <li>
         <code class="highlight-rouge">{{ post.date | date_to_string }}</code>
         
-        {% if post.categories == 'graphical' %}
+        {% if {{ post.categories }} == 'graphical' %}
           <code class="highlight-rouge" style="background-color: #FFEDAF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        {% elsif post.categories == 'algorithm' %}
+        {% elsif {{ post.categories }} == 'algorithm' %}
           <code class="highlight-rouge" style="background-color: #AFCCFF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        {% elsif post.categories == 'unix' %}
+        {% elsif {{ post.categories }} == 'unix' %}
           <code class="highlight-rouge" style="background-color: #B3FFAF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% endif %}
       </li>
