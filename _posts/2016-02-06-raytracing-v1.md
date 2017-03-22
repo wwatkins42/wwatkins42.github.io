@@ -14,9 +14,9 @@ For once, the topic is related to the foreword. To succeed, you must fail. Thatâ
 you will start with some sort of proof-of-concept on the theory of Raytracing. Itâ€™s the
 objective of RTv1: to get familiar with Ray-Tracing, geometric elements that you will
 need to manipulate, the description of the scene... You will therefore succeed or fail this
-project, with the end goal to do it again later bigger, better, more beautiful with all sorts
-of additional features (it will be the RT, do not start RT if you did not do RTv1, it would
-not be reasonable.)
+project, with the end goal to do it again later bigger, better, more beautiful with all
+sorts of additional features (it will be the RT, do not start RT if you did not do RTv1,
+it would not be reasonable.)
 ```
 ```
 Watch the demo video to understand what we have to start with, and what your program
