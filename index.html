@@ -13,9 +13,9 @@ title: {{ site.name }}
         
         {% if post.categories == "graphical" %}
           <code class="highlight-rouge" style="background-color: #FFEDAF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        {% elif post.categories == "algorithm" %}
+        {% elsif post.categories == "algorithm" %}
           <code class="highlight-rouge" style="background-color: #AFCCFF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        {% elif post.categories == "unix" %}
+        {% elsif post.categories == "unix" %}
           <code class="highlight-rouge" style="background-color: #B3FFAF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% endif %}
       </li>
