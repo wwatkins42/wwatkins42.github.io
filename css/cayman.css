@@ -1,3 +1,7 @@
+graphical { background-color: #FFE381 }
+algorithm { background-color: #005377 }
+unix { background-color: #06A77D }
+
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
