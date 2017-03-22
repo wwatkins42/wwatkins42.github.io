@@ -19,15 +19,6 @@ sorts of additional features (it will be the RT, do not start RT if you did not 
 it would not be reasonable.)
 ```
 ```
-Watch the demo video to understand what we have to start with, and what your program
-is meant to do. Resources on the net are important to gain a better understanding
-of Raytracing. There are different ways to understand it, find the one that works for
-you. RTv1 is still a simple version, see what’s requested so that you don’t get lost in the
-maze of the numerous functionalities that such a program can contain. Keep the complex
-features for the RT project.
-```
-##### Objectives:
-```
 When it comes to render 3 dimensions computer generated images there is 2 possible
 approaches: “rasterization”, which is used by almost all graphic engines because of it’s
 efficiency and “ray tracing.” The ray tracing method is more extensive and as a result
@@ -39,7 +30,7 @@ the basics: RTv1 is your first ray tracer coded in C, normed, humble but functio
 At least you’ll then be able to show off nice looking pictures to justify the amount of
 hours you’re spending at school instead of spending time with your special person :-).
 ```
-##### Constraints:
+##### Objectives:
 ```
 Your goal is to be able, with the help of your program, to generate images according to
 Raytracing protocol.
@@ -58,6 +49,7 @@ system.
 • Position and direction of any point of vision and of simple objects.
 • Smallest light management : different brightness, shadows.
 ```
+##### Constraints:
 ```
 Within the mandatory part, you are allowed to use only the following libc functions:
 ◦ open
