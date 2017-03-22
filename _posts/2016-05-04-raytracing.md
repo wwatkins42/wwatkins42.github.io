@@ -8,7 +8,7 @@ categories: graphical
 
 ---
 __Subject:__
-##### Objectives:
+##### Introduction:
 ```
 When it comes to render 3 dimensions computer generated images there is 2 possible
 approaches: “rasterization”, which is used by almost all graphic engines because of it’s
@@ -22,7 +22,7 @@ And if you are all depressed reading this topic, think of the long way already p
 the lunatics from ILM, Pixar (or any other computer-generated images studio) that all
 have deployed infinite creativity to get better in that art) relax, take life easy and bound
 ```
-##### Constraints:
+##### Objectives:
 ```
 Your goal is to be able, with the help of your program, to generate images according to
 Raytracing protocol.
@@ -36,6 +36,7 @@ part is worth 0 points and the options will only bring you points IF the mandato
 is 100% complete. The project will only be validated if a substantial volume of options
 is present when you defend the project.
 ```
+##### Constraints:
 ```
 The elements you need to create are as follows:
 • Implement the Ray-Tracing method to create a computer generated image.
