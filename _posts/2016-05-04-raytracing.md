@@ -35,8 +35,7 @@ This project will have a mandatory part and many additional options. The mandato
 part is worth 0 points and the options will only bring you points IF the mandatory part
 is 100% complete. The project will only be validated if a substantial volume of options
 is present when you defend the project.
-```
-```
+
 The elements you need to create are as follows:
 • Implement the Ray-Tracing method to create a computer generated image.
 • You need at least 4 simple geometric objects as a base (not composed): plane,
