@@ -37,7 +37,7 @@ To do so, you need to create two programs :
     you back the estimated price for that mileage. The program will use the following
     hypothesis to predict the price :
     
-    estimatePrice(mileage) = θ0 + (θ1 * mileage)
+    estimatePrice(mileage) = theta0 + (theta1 * mileage)
 
     Before the run of the training program, theta0 and theta1 will be set to 0.
     
@@ -51,7 +51,10 @@ your temporary, lastly computed theta0 and theta1.
 ```
 ##### Constraints:
 ```
+In this project you are free to use whatever language you want.
 
+You are also free to use any libraries you want as long as they do not do all the work
+for you. For example, the use of python’s numpy.polyfit is considered cheating.
 ```
 ---
 __Installation:__
