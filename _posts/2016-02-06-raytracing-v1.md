@@ -17,14 +17,12 @@ need to manipulate, the description of the scene... You will therefore succeed o
 project, with the end goal to do it again later bigger, better, more beautiful with all
 sorts of additional features (it will be the RT, do not start RT if you did not do RTv1,
 it would not be reasonable.)
-```
-```
+
 When it comes to render 3 dimensions computer generated images there is 2 possible
 approaches: “rasterization”, which is used by almost all graphic engines because of it’s
 efficiency and “ray tracing.” The ray tracing method is more extensive and as a result
 not adapted to real time but it produces a high degree of visual realism.
-```
-```
+
 Before you can even begin to produce such high quality graphics, you must master
 the basics: RTv1 is your first ray tracer coded in C, normed, humble but functionnal.
 At least you’ll then be able to show off nice looking pictures to justify the amount of
