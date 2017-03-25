@@ -14,8 +14,7 @@ When it comes to render 3 dimensions computer generated images there is 2 possib
 approaches: “rasterization”, which is used by almost all graphic engines because of it’s
 efficiency and “ray tracing.” The ray tracing method is more extensive and as a result
 not adapted to real time but it produces a high degree of visual realism.
-```
-```
+
 Since you mastered the basics with the last project: RT opens the door of your second
 ray tracer coded in C, normed, awesome and functionnal.
 And if you are all depressed reading this topic, think of the long way already paved by
