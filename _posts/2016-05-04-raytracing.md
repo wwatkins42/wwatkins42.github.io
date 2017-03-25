@@ -19,7 +19,7 @@ Since you mastered the basics with the last project: RT opens the door of your s
 ray tracer coded in C, normed, awesome and functionnal.
 And if you are all depressed reading this topic, think of the long way already paved by
 the lunatics from ILM, Pixar (or any other computer-generated images studio) that all
-have deployed infinite creativity to get better in that art) relax, take life easy and bound
+have deployed infinite creativity to get better in that art) relax, take life easy.
 ```
 ##### Objectives:
 ```
