@@ -4,14 +4,14 @@ layout: default
 <h2>{{ page.title }}</h2>
 <code class="highlighter-rouge" style="margin-top: -0.5em">{{ page.date | date_to_string }}</code>
 
-{% if page.categories contains 'graphical' %}
-  <code class="highlight-rouge" style="background-color: #FFF3C9;">{{ page.categories }}</code>
-{% elsif page.categories contains 'algorithm' %}
-  <code class="highlight-rouge" style="background-color: #CCDEFF;">{{ page.categories }}</code>
-{% elsif page.categories contains 'unix' %}
-  <code class="highlight-rouge" style="background-color: #FFD9CE;">{{ page.categories }}</code>
+{% if page.categories[0] contains 'graphical' %}
+  <code class="highlight-rouge" style="background-color: #FFF3C9;">{{ page.categories[0] }}</code>
+{% elsif page.categories[0] contains 'algorithm' %}
+  <code class="highlight-rouge" style="background-color: #CCDEFF;">{{ page.categories[0] }}</code>
+{% elsif page.categories[0] contains 'unix' %}
+  <code class="highlight-rouge" style="background-color: #FFD9CE;">{{ page.categories[0] }}</code>
 {% else %}
-  <code class="highlight-rouge">{{ page.categories }}</code>
+  <code class="highlight-rouge">{{ page.categories[0] }}</code>
 {% endif %}
 
 <code class="highlight-rouge" style="background-color: #666f7c;">{{ page.categories[1] }}</code>
