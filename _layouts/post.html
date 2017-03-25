@@ -4,18 +4,18 @@ layout: default
 <h2>{{ page.title }}</h2>
 <code class="highlighter-rouge" style="margin-top: -0.5em">{{ page.date | date_to_string }}</code>
 
-{% if page.categories[0] contains 'graphical' %}
+<!-- Displays the type of project (first index of array categories) -->
+{% if page.categories.first contains 'graphical' %}
   <code class="highlight-rouge" style="background-color: #FFF3C9;">{{ page.categories.first }}</code>
-{% elsif page.categories[0] contains 'algorithm' %}
-  <code class="highlight-rouge" style="background-color: #CCDEFF;">{{ page.categories[0] }}</code>
-{% elsif page.categories[0] contains 'unix' %}
-  <code class="highlight-rouge" style="background-color: #FFD9CE;">{{ page.categories[0] }}</code>
+{% elsif page.categories.first contains 'algorithm' %}
+  <code class="highlight-rouge" style="background-color: #CCDEFF;">{{ page.categories.first }}</code>
+{% elsif page.categories.first contains 'unix' %}
+  <code class="highlight-rouge" style="background-color: #FFD9CE;">{{ page.categories.first }}</code>
 {% else %}
-  <code class="highlight-rouge">{{ page.categories[0] }}</code>
+  <code class="highlight-rouge">{{ page.categories.first }}</code>
 {% endif %}
 
-<!-- <code class="highlight-rouge" style="background-color: #666f7c;">{{ page.categories[1] }}</code> -->
-
+<!-- Display all categories in <code> at offset 1 -->
 {% for item in page.categories offset:1 %}
   <code class="highlight-rouge" style="background-color: #dce5f2;">{{ item }}</code>
 {% endfor %}
