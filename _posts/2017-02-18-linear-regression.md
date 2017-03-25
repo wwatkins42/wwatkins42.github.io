@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: algorithm
+tags: [Python]
 ---
 
 `1 day`
