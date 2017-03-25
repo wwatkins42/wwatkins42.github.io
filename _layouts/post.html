@@ -16,7 +16,7 @@ layout: default
 {% endif %}
 
 <!-- Display all categories in <code> at offset 1 -->
-<!-- {% for item in page.categories offset:1 %} -->
+
 {% for item in page.tags limit:10 %}
   <code class="highlight-rouge" style="background-color: #dce5f2;">{{ item }}</code>
 {% endfor %}
