@@ -14,6 +14,10 @@ layout: default
   <code class="highlight-rouge">{{ page.categories[0] }}</code>
 {% endif %}
 
-<code class="highlight-rouge" style="background-color: #666f7c;">{{ page.categories[1] }}</code>
+<!-- <code class="highlight-rouge" style="background-color: #666f7c;">{{ page.categories[1] }}</code> -->
+
+{% for item in page.categories offset:1 %}
+  <code class="highlight-rouge" style="background-color: #666f7c;">{{ item }}</code>
+{% endfor %}
 
 {{ content }}
