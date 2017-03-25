@@ -3,8 +3,7 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 <code class="highlighter-rouge" style="margin-top: -0.5em">{{ page.date | date_to_string }}</code>
-<!-- <code class="highlight-rouge" style="background-color: #FFF3C9;">{{ page.categories }}</code>
- -->
+
 {% if page.categories contains 'graphical' %}
   <code class="highlight-rouge" style="background-color: #FFF3C9;">{{ page.categories }}</code>
 {% elsif page.categories contains 'algorithm' %}
@@ -14,5 +13,7 @@ layout: default
 {% else %}
   <code class="highlight-rouge">{{ page.categories }}</code>
 {% endif %}
+
+<code class="highlight-rouge" style="background-color: #666f7c;">{{ page.categories[1] }}</code>
 
 {{ content }}
