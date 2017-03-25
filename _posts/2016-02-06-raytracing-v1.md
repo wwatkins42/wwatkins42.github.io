@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: graphical
+categories: [graphical, C]
 ---
 
 `2 weeks`
