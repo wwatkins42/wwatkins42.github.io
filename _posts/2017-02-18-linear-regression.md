@@ -2,11 +2,8 @@
 layout: post
 categories: algorithm
 tags: [Python]
+pspecs: [1 day, 1 person]
 ---
-
-`1 day`
-`1 person`
-
 ---
 __Subject:__
 ##### Introduction:
