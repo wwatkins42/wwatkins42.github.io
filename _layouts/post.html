@@ -20,8 +20,8 @@ layout: default
 {% for item in page.tags limit:10 %}
   <code class="highlight-rouge" style="background-color: #b5ece0;">{{ item }}</code>
 {% endfor %}
-
-<code class="highlight-rouge" style="background-color: #b5ece0;">{{ page.duration }}</code>
-<code class="highlight-rouge" style="background-color: #b5ece0;">{{ page.people }}</code>
+{% for item in page.pspecs limit:10 %}
+  <code class="highlight-rouge" style="background-color: #b5ece0;">{{ item }}</code>
+{% endfor %}
 
 {{ content }}
