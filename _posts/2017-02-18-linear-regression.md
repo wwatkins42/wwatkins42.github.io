@@ -13,7 +13,7 @@ __Subject:__
 ```
 Machine learning is a growing field of computer science that may seem a bit complicated
 and reserved only to mathematicians. You may have heard of neural networks or
-k-means clustering and don’t undersdand how they work or how to code these kinds of
+k-means clustering and don’t understand how they work or how to code these kinds of
 algorithms...
 
 But don’t worry, we are actually going to start with a simple, basic machine learning
@@ -23,7 +23,7 @@ algorithm.
 ```
 The aim of this project is to introduce you to the basic concept behind machine learning.
 For this project, you will have to create a program that predicts the price of a car
-by using a linear function train with a gradient descent algorithm.
+by using a linear function trained with a gradient descent algorithm.
 
 We will work on a precise example for the project, but once you’re done you will be
 able to use the algorithm with any other dataset.
