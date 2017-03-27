@@ -2,11 +2,8 @@
 layout: post
 categories: graphical
 tags: [C]
+pspecs: [8 weeks, 4 persons]
 ---
-
-`8 weeks`
-`4 persons`
-
 ---
 __Subject:__
 ##### Introduction:
