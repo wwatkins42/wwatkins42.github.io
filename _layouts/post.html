@@ -16,12 +16,12 @@ layout: default
 {% endif %}
 
 <!-- Display all categories in <code> at offset 1 -->
-
 {% for item in page.tags limit:10 %}
   <code class="highlight-rouge" style="background-color: #b5ece0;">{{ item }}</code>
 {% endfor %}
+<!-- Display pspecs list -->
 {% for item in page.pspecs limit:10 %}
-  <code class="highlight-rouge" style="background-color: #b5ece0;">{{ item }}</code>
+  <code class="highlight-rouge" style="background-color: #e2e2e2;">{{ item }}</code>
 {% endfor %}
 
 {{ content }}
