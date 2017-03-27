@@ -145,6 +145,7 @@ __Installation:__
 ![glossy](https://cloud.githubusercontent.com/assets/16082039/14081611/d9028cdc-f50b-11e5-9df1-8a36d23051e8.png)
 ![triplesphere_17_03_2016_10-08-39](https://cloud.githubusercontent.com/assets/16072194/13849567/0298bb6a-ec57-11e5-95d9-4c392deb8df5.jpg)
 ![screen shot 2016-04-28 at 11 41 32 am](https://cloud.githubusercontent.com/assets/16082039/14881965/b00bb2c0-0d36-11e6-94da-3c9ab804f484.png)
+![](https://cdn.rawgit.com/wwatkins42/wwatkins42.github.io/43ebe056/images/rt_demo.gif)
 __Bonus:__
 - • Multi cameras
 - • Multi lights
