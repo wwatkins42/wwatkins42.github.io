@@ -229,7 +229,7 @@ a:hover { text-decoration: underline; }
   margin-left: 1rem;
 }
 
-@media screen and (min-width: 64em) { .btn_post { padding: 0.75rem 1rem; } }
+@media screen and (min-width: 64em) { .btn_post { padding: 0.5rem 0.75rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .btn_post { padding: 0.6rem 0.9rem; font-size: 0.9rem; } }
 @media screen and (max-width: 42em) { .btn_post { display: block; width: 100%; padding: 0.75rem; font-size: 0.9rem; }
   .btn_post + .btn_post {
