@@ -208,9 +208,9 @@ a:hover { text-decoration: underline; }
 .btn_post {
   display: inline-block;
   margin-bottom: 0.5rem;
-  color: rgb(86, 116, 130);
-  background-color: rgb(243, 246, 250);
-  border-color: rgba(62, 62, 62, 0.05);
+  color: rgba(134, 132, 71, 0.9);
+  background-color: rgba(254, 255, 192, 0.9);
+  border-color: rgba(232, 229, 127, 0.37);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -228,7 +228,7 @@ a:hover { text-decoration: underline; }
   margin-left: 1rem;
 }
 
-@media screen and (min-width: 64em) { .btn_post { padding: 0.5rem 0.75rem; } }
+@media screen and (min-width: 64em) { .btn_post { padding: 0.2rem 0.7rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .btn_post { padding: 0.6rem 0.9rem; font-size: 0.9rem; } }
 @media screen and (max-width: 42em) { .btn_post { display: block; width: 100%; padding: 0.75rem; font-size: 0.9rem; }
   .btn_post + .btn_post {
