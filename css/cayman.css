@@ -207,7 +207,7 @@ a:hover { text-decoration: underline; }
 /* For posts btn class */
 .btn_post {
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: rgb(86, 116, 130);
   background-color: rgb(243, 246, 250);
   border-color: rgba(62, 62, 62, 0.05);
@@ -215,7 +215,6 @@ a:hover { text-decoration: underline; }
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-  font-size: 1rem;
 }
 
 .btn_post:hover {
