@@ -3,6 +3,10 @@ layout: post
 categories: graphical
 tags: [C]
 pspecs: [8 weeks, 4 persons]
+links:
+ - source: https://github.com/wwatkins42/RT
+ - download: https://github.com/wwatkins42/RT/archive/master.zip
+ - clone: https://github.com/wwatkins42/RT.git
 ---
 
 __Subject:__
