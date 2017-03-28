@@ -74,5 +74,4 @@ Prediction phase:
 * `-p` plot training result.
 * `-r` plot training animation.
 
-![linear_regression_screenshot_1](/images/linear-regression-1.png?raw=true "linear_regression")
 ![](https://cdn.rawgit.com/wwatkins42/wwatkins42.github.io/master/images/linear_regression_demo.gif)
