@@ -203,3 +203,35 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+/* For posts btn class */
+.btn_post {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgb(86, 116, 130);
+  background-color: rgb(243, 246, 250);
+  border-color: rgba(62, 62, 62, 0.05);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.btn_post:hover {
+  color: rgba(86, 121, 149, 0.6);
+  text-decoration: none;
+  background-color: rgba(243, 246, 250, 0.6);
+  border-color: rgba(233, 235, 236, 0.6);
+}
+
+.btn_post + .btn_post {
+  margin-left: 1rem;
+}
+
+@media screen and (min-width: 64em) { .btn_post { padding: 0.75rem 1rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .btn_post { padding: 0.6rem 0.9rem; font-size: 0.9rem; } }
+@media screen and (max-width: 42em) { .btn_post { display: block; width: 100%; padding: 0.75rem; font-size: 0.9rem; }
+  .btn_post + .btn_post {
+    margin-top: 1rem;
+    margin-left: 0; }
+}
