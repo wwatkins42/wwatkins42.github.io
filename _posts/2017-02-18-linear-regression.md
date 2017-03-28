@@ -4,7 +4,7 @@ categories: algorithm
 tags: [Python]
 pspecs: [1 day, 1 person]
 ---
----
+
 __Subject:__
 ##### Introduction:
 ```
