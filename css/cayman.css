@@ -218,10 +218,10 @@ a:hover { text-decoration: underline; }
 }
 
 .btn_post:hover {
-  color: rgba(86, 121, 149, 0.6);
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: rgba(243, 246, 250, 0.6);
-  border-color: rgba(233, 235, 236, 0.6);
+  background-color: rgba(128, 226, 176, 0.8);
+  border-color: rgba(131, 202, 159, 0.33);
 }
 
 .btn_post + .btn_post {
