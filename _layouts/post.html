@@ -31,8 +31,10 @@ layout: default
   <a href="https://github.com/wwatkins42" class="btn_post" style="margin-left: 0rem; margin-bottom: 0rem;">Download</a>
   <a href="https://github.com/wwatkins42" class="btn_post" style="margin-left: 0rem; margin-bottom: 0rem;">Clone</a>
  -->
-  {% for item in page.links %}
-      <a href="{{ item[1] }}" class="btn_post" style="margin-left: 0rem; margin-bottom: 0rem;">{{ item[0] }}</a>
+  {% for hash in page.links %}
+    {% for link in hash %}
+      <a href="{{ link[1] }}" class="btn_post" style="margin-left: 0rem; margin-bottom: 0rem;">{{ link[0] }}</a>
+    {% endfor%}
   {% endfor%}
 </p>
 
