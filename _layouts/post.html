@@ -27,10 +27,10 @@ layout: default
 <hr style="margin-top: 0.5rem;">
 
 <!-- Display links -->
-<p style="text-align: left; margin-top: -1.5rem; font-size: 0.9rem; padding: 0.2rem 0.5rem;">
+<p style="text-align: left; margin-top: -1.5rem; font-size: 0.9rem;">
   {% for hash in page.links %}
     {% for link in hash %}
-      <a href="{{ link[1] }}" class="btn_post" style="margin-left: 0rem; margin-bottom: 0rem;">{{ link[0] | capitalize }}</a>
+      <a href="{{ link[1] }}" class="btn_post" style="margin-left: 0rem; margin-bottom: 0rem; padding: 0.2rem 0.5rem;">{{ link[0] | capitalize }}</a>
     {% endfor%}
   {% endfor%}
 </p>
