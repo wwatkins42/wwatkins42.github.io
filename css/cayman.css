@@ -242,10 +242,7 @@ a:hover { text-decoration: underline; }
   margin-bottom: 1em;
   font-size: 0.9rem;
   display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+  padding: 0.75rem;
 }
 @media screen and (min-width: 64em) { .p_post { font-size: 1rem; margin-top: -1.5rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .p_post { font-size: 1rem; margin-top: -1.5rem; } }
