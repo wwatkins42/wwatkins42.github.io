@@ -239,9 +239,10 @@ a:hover { text-decoration: underline; }
 .p_post {
   text-align: left;
   margin-top: -0.5rem;
+  margin-bottom: 1em;
   font-size: 0.9rem;
 }
 @media screen and (min-width: 64em) { .p_post { font-size: 1rem; margin-top: -1.5rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .site-footer { font-size: 1rem; margin-top: -1.5rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .p_post { font-size: 1rem; margin-top: -1.5rem; } }
 @media screen and (max-width: 42em) { .site-footer { font-size: 0.9rem; margin-top: -1.5rem; } }
 
