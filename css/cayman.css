@@ -231,10 +231,17 @@ a:hover { text-decoration: underline; }
   margin-left: 1rem;
 }
 
-@media screen and (min-width: 64em) { .btn_post { padding: 0.2rem 0.7rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .btn_post { padding: 0.6rem 0.9rem; font-size: 0.9rem; } }
-@media screen and (max-width: 42em) { .btn_post { display: block; width: 100%; padding: 0.75rem; font-size: 0.9rem; }
-  .btn_post + .btn_post {
+.btn_post + .btn_post {
     margin-top: 1rem;
     margin-left: 0; }
 }
+
+.p_post {
+  text-align: left;
+  margin-top: -0.5rem;
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 64em) { .p_post { font-size: 1rem; margin-top: -1.5rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .site-footer { font-size: 1rem; margin-top: -1.5rem; } }
+@media screen and (max-width: 42em) { .site-footer { font-size: 0.9rem; margin-top: -1.5rem; } }
+
