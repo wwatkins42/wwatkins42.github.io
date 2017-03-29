@@ -5,7 +5,7 @@ title: {{ site.name }}
 
 <div id="home">
   <h1>Description</h1>
-  <div> Hi! my name is William, I am currently a second year student at school 42 in Paris. I did my first intership at
+  <div> Hello! My name is William, I am currently a second year student at school 42 in Paris. I did my first intership at
         <a href="http://scortex.io/">Scortex</a> in machine learning during 5 months and I am currently looking for a
         part-time job or an internship.
   </div>
@@ -23,7 +23,6 @@ title: {{ site.name }}
         {% elsif post.categories contains 'algorithm' %}
           <code class="highlight-rouge" style="background-color: #CCDEFF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% elsif post.categories contains 'unix' %}
-<!--           <code class="highlight-rouge" style="background-color: #FFD9CE;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> -->
           <code class="highlight-rouge" style="background-color: #FFD9CE; margin-left: 2.75rem;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% else %}
           <code class="highlight-rouge">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -32,12 +31,3 @@ title: {{ site.name }}
     {% endfor %}
   </ul>
 </div>
-
-<!-- <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div> -->
