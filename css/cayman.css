@@ -236,7 +236,7 @@ a:hover { text-decoration: underline; }
     margin-left: 0; }
 }
 
-.p_post {
+.p_post p {
   text-align: left;
   margin-top: -0.5rem;
   margin-bottom: 1em;
