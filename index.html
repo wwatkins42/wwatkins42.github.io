@@ -17,7 +17,7 @@ title: {{ site.name }}
   
   <ul class="posts">
     {% for post in site.posts %}
-      <li>
+      <li style="-webkit-font-smoothing: antialiased;">
         <code class="highlight-rouge">{{ post.date | date_to_string }}</code>
         {% if post.categories contains 'graphical' %}
           <code class="highlight-rouge" style="background-color: #FFF3C9;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
