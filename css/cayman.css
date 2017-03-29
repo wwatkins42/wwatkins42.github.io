@@ -212,7 +212,6 @@ a:hover { text-decoration: underline; }
   display: inline-block;
   margin-bottom: 0.5rem;
   margin-left: 0rem;
-
   color: rgba(134, 132, 71, 0.9);
   background-color: rgba(254, 255, 192, 0.9);
   border-color: rgba(232, 229, 127, 0.37);
@@ -237,5 +236,3 @@ a:hover { text-decoration: underline; }
     margin-top: 1rem;
     margin-left: 0; }
 }
-
-
