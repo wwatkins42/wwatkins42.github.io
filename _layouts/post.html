@@ -27,6 +27,7 @@ layout: default
 <hr style="margin-top: 0.5rem;">
 
 <!-- Display links -->
+{% if page.links %}
 <p style="text-align: left; margin-top: -1.5rem; font-size: 0.9rem;">
   {% for hash in page.links %}
     {% for link in hash %}
@@ -34,5 +35,6 @@ layout: default
     {% endfor%}
   {% endfor%}
 </p>
+{% endif %}
 
 {{ content }}
