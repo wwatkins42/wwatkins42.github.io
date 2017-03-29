@@ -150,7 +150,7 @@ a:hover { text-decoration: underline; }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } } */
 
-.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #052F5F, #005377, #06A77D); }
+.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #052F5F, #005377, #06A77D); -webkit-font-smoothing: antialiased; }
 @media screen and (min-width: 64em) { .page-header { padding: 2rem 6rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 2rem 4rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
@@ -172,9 +172,9 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 42em) { .main-content { padding: 2rem 1rem; font-size: 1rem; } }
 .main-content img { min-width: 125%; max-width: 125%; border-radius: 8px; position: relative; left: -12.5%;}
 
-.main-content h1, .main-content h3, .main-content h4, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #06A77D; }
-.main-content h2 { margin-top: 0rem; margin-bottom: 0rem; font-weight: normal; color: #06A77D; }
-.main-content h5 { margin-top: 0rem; margin-bottom: 1rem; font-weight: normal; color: #06A77D; } 
+.main-content h1, .main-content h3, .main-content h4, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #06A77D; -webkit-font-smoothing: antialiased; }
+.main-content h2 { margin-top: 0rem; margin-bottom: 0rem; font-weight: normal; color: #06A77D; -webkit-font-smoothing: antialiased; }
+.main-content h5 { margin-top: 0rem; margin-bottom: 1rem; font-weight: normal; color: #06A77D; -webkit-font-smoothing: antialiased; } 
 
 .main-content p { margin-bottom: 1em; }
 .main-content code { padding: 2px 4px; font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 0.9rem; color: #567482; background-color: #f3f6fa; border-radius: 0.3rem; }
