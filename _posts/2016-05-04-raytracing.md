@@ -6,6 +6,8 @@ pspecs: [8 weeks, 4 persons]
 links:
  - source: https://github.com/wwatkins42/RT
  - download: https://github.com/wwatkins42/RT/archive/master.zip
+header: ["https://cloud.githubusercontent.com/assets/16082039/15098030/c97af69c-1530-11e6-9d6f-1b840b07828a.png", 50]
+
 ---
 
 __Subject:__
