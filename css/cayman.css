@@ -239,12 +239,11 @@ a:hover { text-decoration: underline; }
     margin-left: 0; }
 }
 
-/* For posts btn class */
 .btn_back {
   display: inline-block;
-  margin-bottom: 0.5rem;
-  margin-left: 0rem;
   width: 3.3em;
+  text-align: center;
+  font-size: 1rem;
   color: #adadad;
   border-color: #D5D5D5;
   border-style: solid;
@@ -255,10 +254,10 @@ a:hover { text-decoration: underline; }
 }
 
 .btn_back:hover {
-  color: rgb(255, 255, 255);
+  color: #7d7d7d;
   text-decoration: none;
-  background-color: rgba(128, 226, 176, 0.8);
-  border-color: rgba(131, 202, 159, 0.33);
+  background-color: #1d1d1d;
+  border-color: #B5B5B5;
 }
 
 .btn_back + .btn_back {
