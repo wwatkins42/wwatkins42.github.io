@@ -30,7 +30,7 @@ layout: default
 {% if page.links %}
   <p style="text-align: left; margin-top: -1.5rem; font-size: 0.9rem;">
     {% for hash in page.links %}
-      {% for link in hash %}
+      {% for link in hash limit:2 %}
         <a href="{{ link[1] }}" class="btn_post" style="margin-bottom: 0rem; padding: 0.2rem 0.5rem;">{{ link[0] | capitalize }}</a>
       {% endfor%}
     {% endfor%}
