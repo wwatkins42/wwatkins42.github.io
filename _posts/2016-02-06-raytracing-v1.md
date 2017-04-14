@@ -6,7 +6,7 @@ pspecs: [2 weeks, 1 person]
 links:
  - source: https://github.com/wwatkins42/42_C_Projects/tree/master/RTv1
  - download: https://github.com/wwatkins42/42_C_Projects/archive/master.zip
-header: ["https://raw.githubusercontent.com/wwatkins42/42_C_Projects/master/screenshots/screenshot_rtv1_1.png", 50]
+header: ["https://raw.githubusercontent.com/wwatkins42/42_C_Projects/master/screenshots/screenshot_rtv1_1.png", 40]
 ---
 
 __Subject:__
