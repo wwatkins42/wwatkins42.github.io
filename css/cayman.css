@@ -213,9 +213,9 @@ a:hover { text-decoration: underline; }
   display: inline-block;
   margin-bottom: 0.5rem;
   margin-left: 0rem;
-  color: rgba(134, 132, 71, 0.9);
-  background-color: rgba(254, 255, 192, 0.9);
-  border-color: rgba(232, 229, 127, 0.37);
+  color: rgba(125, 123, 105, 0.9);
+  background-color: rgba(254, 249, 195, 0.9);
+  border-color: rgba(170, 166, 71, 0.4);
   border-style: dashed;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -226,8 +226,8 @@ a:hover { text-decoration: underline; }
 .btn_post:hover {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: rgba(128, 226, 176, 0.8);
-  border-color: rgba(131, 202, 159, 0.33);
+  background-color: rgba(113, 234, 172, 0.8);
+  border-color: rgba(18, 50, 30, 0.3);
 }
 
 .btn_post + .btn_post {
