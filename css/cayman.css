@@ -238,7 +238,6 @@ a:hover { text-decoration: underline; }
 
 /* For posts btn class */
 .btn_post {
-  display: inline-block;
   font-family: "source code pro";
   margin-bottom: 0.5rem;
   margin-left: 0rem;
