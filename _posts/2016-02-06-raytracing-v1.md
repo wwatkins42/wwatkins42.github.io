@@ -9,7 +9,6 @@ links:
 header: ["https://raw.githubusercontent.com/wwatkins42/42_C_Projects/master/screenshots/screenshot_rtv1_1.png", 40]
 ---
 
-__Subject:__
 ##### Introduction:
 ```
 For once, the topic is related to the foreword. To succeed, you must fail. That’s why
