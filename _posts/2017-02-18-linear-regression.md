@@ -5,7 +5,6 @@ tags: [Python]
 pspecs: [1 day, 1 person]
 ---
 
-__Subject:__
 ##### Introduction:
 ```
 Machine learning is a growing field of computer science that may seem a bit complicated
@@ -24,8 +23,7 @@ by using a linear function trained with a gradient descent algorithm.
 
 We will work on a precise example for the project, but once you’re done you will be
 able to use the algorithm with any other dataset.
-```
-```
+
 You will implement a simple linear regression with a single feature - in this case, the
 mileage of the car.
 
