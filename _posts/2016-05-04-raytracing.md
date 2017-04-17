@@ -117,7 +117,7 @@ __Installation:__
 * `make`
 
 **Usage:**
-* `./rt [-s file_path] [-w width] [-h height] [--help]`
+* `./rt [-s file_path] [-w width] [-h height] [--help] [--ascii]`
 
 **Example:**
 * `./rt -s resource/scene/bonus/reflection.yml -w 1920 -h 1080`
@@ -148,38 +148,3 @@ __Installation:__
 ![triplesphere_17_03_2016_10-08-39](https://cloud.githubusercontent.com/assets/16072194/13849567/0298bb6a-ec57-11e5-95d9-4c392deb8df5.jpg)
 ![screen shot 2016-04-28 at 11 41 32 am](https://cloud.githubusercontent.com/assets/16082039/14881965/b00bb2c0-0d36-11e6-94da-3c9ab804f484.png)
 ![](https://cdn.rawgit.com/wwatkins42/wwatkins42.github.io/43ebe056/images/rt_demo.gif)
-__Bonus:__
-- • Multi cameras
-- • Multi lights
-- • Reflexion
-- • Refraction
-- • Specular
-- • .yml scene parsing
-- • Changeable window width/height
-- • Image filters (invert, grayscale, gamma, ...)
-- • Exporter yml
-- • Exporter bmp
-- • Importer bmp (texture loading)
-- • Perlin noise (procedural textures)
-- • Texture mapping (plane, sphere)
-- • Changeable field of view
-- • Super-sampling (anti-aliasing)
-- • Beer law
-- • Error log
-- • Texture bilinear filtering
-- • Loading infos
-- • Loading percentage
-- • Line loading display
-- • Generate normal-map from texture (sobel filter)
-- • Normal mapping
-- • Light attenuation with distance
-- • Camera movement
-- • Camera orientation with mouse
-- • Mouse smooth (linear interpolation)
-- • Frame per second display
-- • Progressive loading
-- • Glossy reflection/refractions
-- • Soft shadows
-- • Stereoscopic camera for 3D view
-- • Texture rotation
-- • Ascii shell display (--shell option)
