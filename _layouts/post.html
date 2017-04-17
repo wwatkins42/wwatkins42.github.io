@@ -28,8 +28,6 @@ layout: default
 <hr style="margin-top: 0.5rem;">
 
 <!-- Display links -->
-
-
 {% if page.links %}
   <p style="text-align: left; margin-top: -1.5rem; font-size: 0.9rem;">
     {% for hash in page.links %}
@@ -41,7 +39,7 @@ layout: default
           </a>
         {% elsif link[0] contains 'download' %}
           <a href="{{ link[1] }}" class="btn_post" style="margin-bottom: 0rem; padding: 0.1rem 0.5rem;">
-            <img src="https://cdn1.iconfinder.com/data/icons/material-core/19/file-download-512.png" style="width: 10px;min-width: 0;box-shadow: unset;display: inline-block;margin: 0em -0.1em -0.2em 0.1em;filter: opacity(40%);">
+            <img src="https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/download_icon.png" style="width: 10px;min-width: 0;box-shadow: unset;display: inline-block;margin: 0em -0.1em -0.2em 0.1em;filter: opacity(40%);">
             <span style="display: inline-block;">{{ link[0] | capitalize }}</span>
           </a>
         {% else %}
