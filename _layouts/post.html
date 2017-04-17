@@ -34,13 +34,13 @@ layout: default
       {% for link in hash %}
         {% if link[0] contains 'source' %}
           <a href="{{ link[1] }}" class="btn_post" style="margin-bottom: 0rem; padding: 0.1rem 0.5rem;">
-            <img style="width: 24px;min-width: 0;box-shadow: unset;display: inline-block;margin: 0em -0.3em -0.5em -0.2em;filter: opacity(40%);" src="http://developer.buildsci.us/archives/interface/EEB%20Hub%20Simulation%20Platform%20Tools_files/iconmonstr-html-code-icon.svg">
-            <span style="display: inline-block;">{{ link[0] | capitalize }}</span>
+            <img class="icon_source" src="http://developer.buildsci.us/archives/interface/EEB%20Hub%20Simulation%20Platform%20Tools_files/iconmonstr-html-code-icon.svg">
+            <span>{{ link[0] | capitalize }}</span>
           </a>
         {% elsif link[0] contains 'download' %}
           <a href="{{ link[1] }}" class="btn_post" style="margin-bottom: 0rem; padding: 0.1rem 0.5rem;">
-            <img src="https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/download_icon.png" style="width: 10px;min-width: 0;box-shadow: unset;display: inline-block;margin: 0em -0.1em -0.2em 0.1em;filter: opacity(40%);">
-            <span style="display: inline-block;">{{ link[0] | capitalize }}</span>
+            <img class="icon_download" src="https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/download_icon.png">
+            <span>{{ link[0] | capitalize }}</span>
           </a>
         {% else %}
           <a href="{{ link[1] }}" class="btn_post" style="margin-bottom: 0rem; padding: 0.1rem 0.5rem;">{{ link[0] | capitalize }}</a>
