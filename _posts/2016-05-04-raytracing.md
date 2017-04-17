@@ -10,7 +10,6 @@ header: ["https://cloud.githubusercontent.com/assets/16082039/15098030/c97af69c-
 
 ---
 
-__Subject:__
 ##### Introduction:
 ```
 When it comes to render 3 dimensions computer generated images there is 2 possible
