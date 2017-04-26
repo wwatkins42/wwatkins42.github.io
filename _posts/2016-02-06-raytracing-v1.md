@@ -19,7 +19,7 @@ project, with the end goal to do it again later bigger, better, more beautiful w
 sorts of additional features (it will be the RT, do not start RT if you did not do RTv1,
 it would not be reasonable.)
 
-When it comes to render 3 dimensions computer generated images there is 2 possible
+When it comes to render 3 dimensions computer generated images there are 2 possible
 approaches: “rasterization”, which is used by almost all graphic engines because of it’s
 efficiency and “ray tracing.” The ray tracing method is more extensive and as a result
 not adapted to real time but it produces a high degree of visual realism.
