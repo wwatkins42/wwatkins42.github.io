@@ -12,7 +12,7 @@ header: ["https://cloud.githubusercontent.com/assets/16082039/15098030/c97af69c-
 
 ##### Introduction:
 ```
-When it comes to render 3 dimensions computer generated images there is 2 possible
+When it comes to render 3 dimensions computer generated images there are 2 possible
 approaches: “rasterization”, which is used by almost all graphic engines because of it’s
 efficiency and “ray tracing.” The ray tracing method is more extensive and as a result
 not adapted to real time but it produces a high degree of visual realism.
@@ -26,7 +26,7 @@ have deployed infinite creativity to get better in that art) relax, take life ea
 ##### Objectives:
 ```
 Your goal is to be able, with the help of your program, to generate images according to
-Raytracing protocol.
+the Raytracing protocol.
 
 Those computer generated images will each represent a scene, as seen from a specific
 angle and position, defined by simple geometric objects, and each with its own lighting
