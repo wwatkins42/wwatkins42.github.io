@@ -74,8 +74,5 @@ is the number of `sides` of the generated polygon, the fourth the `radius` of
 the generated polygon and the fifth and final argument is the `background color`
 between "white" and "black".
 
-
-![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/poly_3.png)
-![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/poly_5.png)
-![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/poly_6.png)
-
+![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/poly_5_.png)
+![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/poly_6_.png)
