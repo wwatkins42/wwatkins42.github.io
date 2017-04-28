@@ -62,7 +62,7 @@ chaosGame(50000, np.array([0, 1]), sides=6, radius=1, bg="black")
 **Usage:**
 * `python chaosGame.py`
 
-**Options:**
+**Parameters:**
 
 To play around with the program parameters you can edit this line:
 ``` python
