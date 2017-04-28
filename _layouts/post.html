@@ -13,7 +13,7 @@ layout: default
 {% elsif page.categories.first contains 'unix' %}
   <code class="highlight-rouge" style="background-color: #FFD9CE;">{{ page.categories.first }}</code>
 {% else %}
-  <code class="highlight-rouge">{{ page.categories.first }}</code>
+  <code class="highlight-rouge" style="background-color: #eaeaea;">{{ page.categories.first }}</code>
 {% endif %}
 
 <!-- Display all categories in <code> at offset 1 -->
