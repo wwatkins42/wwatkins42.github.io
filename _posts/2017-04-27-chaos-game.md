@@ -63,7 +63,7 @@ chaosGame(50000, np.array([0, 1]), sides=6, radius=1, bg=0x0)
 
 To play around with the program parameters you can edit this line:
 ``` python
-chaosGame(50000, np.array([0, 1]), sides=6, radius=1, bg="black")
+chaosGame(50000, np.array([0, 1]), sides=6, radius=1, bg=0x0)
 ```
 the first argument of the function is the `iterations` of the algorithm,
 the second is the `origin` i.e. the initial position at iteration 0, the third
