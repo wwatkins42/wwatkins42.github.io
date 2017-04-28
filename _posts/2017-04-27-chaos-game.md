@@ -20,9 +20,12 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 
+def convertToPyplotHex(color):
+    return '#' + "{0:0{1}x}".format(color, 6)
+
 def setPlotParams(bg):
-    color = '#' + "{0:0{1}x}".format(0xffffff - bg, 6)
-    plt.rcParams['axes.facecolor'] = '#' + "{0:0{1}x}".format(bg, 6)
+    color = convertToPyplotHex(0xffffff - bg)
+    plt.rcParams['axes.facecolor'] = convertToPyplotHex(bg)
     plt.xlim((-1, 1))
     plt.ylim((-1, 1))
     return color
