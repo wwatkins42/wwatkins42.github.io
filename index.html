@@ -26,7 +26,7 @@ title: {{ site.name }}
         {% elsif post.categories contains 'unix' %}
           <code class="highlight-rouge" style="background-color: #FFD9CE; margin-left: 2.75rem;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% elsif post.categories contains 'other' %}
-          <code class="highlight-rouge" style="background-color: #ffbdcf; margin-left: 2.2rem;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <code class="highlight-rouge" style="background-color: #dadada; margin-left: 2.2rem;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% else %}
           <code class="highlight-rouge">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% endif %}
