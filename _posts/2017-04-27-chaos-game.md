@@ -1,12 +1,11 @@
 ---
 layout: post
-categories: side-project
+categories: other
 tags: [Python]
 pspecs: [1 day, 1 person]
 links:
  - source: https://gist.github.com/wwatkins42/6c1d128391c47e4b8e46bd828f8a086c
  - download: https://gist.github.com/wwatkins42/6c1d128391c47e4b8e46bd828f8a086c/archive/38ab364229e9dba0643a4b1a2c4b96339ceef08c.zip
-header: ["https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/poly_6.png", 40]
 ---
 
 ##### Objective:
