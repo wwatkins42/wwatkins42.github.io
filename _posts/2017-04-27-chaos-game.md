@@ -21,12 +21,8 @@ import math
 import matplotlib.pyplot as plt
 
 def setPlotParams(bg):
-    color = "white"
-    if bg == "black":
-        plt.rcParams['axes.facecolor'] = 'black'
-    else:
-        plt.rcParams['axes.facecolor'] = 'white'
-        color = "black"
+    color = '#' + "{0:0{1}x}".format(0xffffff - bg, 6)
+    plt.rcParams['axes.facecolor'] = '#' + "{0:0{1}x}".format(bg, 6)
     plt.xlim((-1, 1))
     plt.ylim((-1, 1))
     return color
@@ -57,7 +53,7 @@ def chaosGame(iterations, coor, sides=3, radius=1, bg="black"):
     plt.plot(polygon[:,0], polygon[:,1], linewidth=0.5, color=color)
     plt.show()
 
-chaosGame(50000, np.array([0, 1]), sides=6, radius=1, bg="black")
+chaosGame(50000, np.array([0, 1]), sides=6, radius=1, bg=0x0)
 ```
 ---
 **Usage:**
