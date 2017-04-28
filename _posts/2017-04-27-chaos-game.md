@@ -13,7 +13,6 @@ links:
 Inspired by this video by Numberphile (https://www.youtube.com/watch?v=kbKtFN71Lfs&t=0s),
 I wanted to implement the algorithm to play around with the interesting mathematic
 properties that it yields.
-[`video`](https://www.youtube.com/watch?v=kbKtFN71Lfs&t=0s)
 ```
 ##### Source code:
 ``` python
