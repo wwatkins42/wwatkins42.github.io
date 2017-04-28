@@ -10,8 +10,8 @@ links:
 
 ##### Objective:
 ```
-Inspired by this [video](https://www.youtube.com/watch?v=kbKtFN71Lfs&t=0s) by Numberphile, I wanted
-to implement the algorithm to play around with the interesting mathematic properties it yields.
+Inspired by this video by Numberphile (https://www.youtube.com/watch?v=kbKtFN71Lfs&t=0s), I wanted
+to implement the algorithm to play around with the interesting mathematic properties that it yields.
 ```
 ##### Source code:
 ``` python
