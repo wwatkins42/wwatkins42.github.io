@@ -32,9 +32,9 @@ def setPlotParams(bg):
     return color
 
 def createPolygon(sides, radius):
-    polygon = np.array([[0, 1]])
+    polygon = np.array([[0, 1]]) * radius
     for n in range(1, sides):
-        t = 2.0 * math.pi * (float(n) / sides) + math.pi * 0.5;
+        t = 2.0 * math.pi * (float(n) / sides) + math.pi * 0.5
         x = radius * math.cos(t)
         y = radius * math.sin(t)
         apex = np.array([x, y])
@@ -42,22 +42,20 @@ def createPolygon(sides, radius):
     polygon = np.vstack([polygon, polygon[0]])
     return polygon
 
-def chaosGame(iterations, coor, sides=3, radius=1, bg="black"):
+def chaosGame(iterations, sides=3, radius=1, bg="black"):
     color = setPlotParams(bg)
     polygon = createPolygon(sides, radius)
     choice_set = np.random.random_integers(sides, size=(iterations))
+    coor = polygon[0]
     observations = np.array([coor])
-
     for p in choice_set:
         coor = coor + (polygon[p - 1] - coor) * 0.5
         observations = np.vstack([observations, coor])
-
-    print(polygon)
-    plt.scatter(observations[:,0], observations[:,1], s=0.5, color=color, alpha=0.33)
+    plt.scatter(observations[:,0], observations[:,1], s=0.1, color=color, alpha=0.33)
     plt.plot(polygon[:,0], polygon[:,1], linewidth=0.5, color=color)
     plt.show()
 
-chaosGame(50000, np.array([0, 1]), sides=6, radius=1, bg=0x0)
+chaosGame(50000, sides=6, radius=1, bg=0x0)
 ```
 ---
 **Usage:**
