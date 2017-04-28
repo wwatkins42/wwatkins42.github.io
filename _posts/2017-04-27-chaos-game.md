@@ -47,10 +47,10 @@ def chaosGame(iterations, sides=3, radius=1, bg="black"):
     polygon = createPolygon(sides, radius)
     choice_set = np.random.random_integers(sides, size=(iterations))
     coor = polygon[0]
-    observations = np.array([coor])
-    for p in choice_set:
+    observations = np.empty([iterations, 2], dtype=float)
+    for i, p in enumerate(choice_set):
         coor = coor + (polygon[p - 1] - coor) * 0.5
-        observations = np.vstack([observations, coor])
+        observations[i] = coor
     plt.scatter(observations[:,0], observations[:,1], s=0.1, color=color, alpha=0.5)
     plt.plot(polygon[:,0], polygon[:,1], linewidth=0.5, color=color)
     plt.show()
@@ -65,13 +65,12 @@ chaosGame(50000, sides=6, radius=1, bg=0x0)
 
 To play around with the program parameters you can edit this line:
 ``` python
-chaosGame(50000, np.array([0, 1]), sides=6, radius=1, bg=0x0)
+chaosGame(50000, sides=6, radius=1, bg=0x0)
 ```
-the first argument of the function is the `iterations` of the algorithm,
-the second is the `origin` i.e. the initial position at iteration 0, the third
-is the number of `sides` of the generated polygon, the fourth the `radius` of
-the generated polygon and the fifth and final argument is the `background color`
-between "white" and "black".
+the first argument of the function is the `iterations` of the algorithm, the second
+is the number of `sides` of the generated polygon, the third the `radius` of
+the generated polygon and the fourth and final argument is the `background color`
+as an hexadecimal value `ex: 0xFFFF00`.
 
 ![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/poly_5_.png)
 ![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/poly_6_.png)
