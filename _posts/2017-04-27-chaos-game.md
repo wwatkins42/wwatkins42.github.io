@@ -51,7 +51,7 @@ def chaosGame(iterations, sides=3, radius=1, bg="black"):
     for p in choice_set:
         coor = coor + (polygon[p - 1] - coor) * 0.5
         observations = np.vstack([observations, coor])
-    plt.scatter(observations[:,0], observations[:,1], s=0.1, color=color, alpha=0.33)
+    plt.scatter(observations[:,0], observations[:,1], s=0.1, color=color, alpha=0.5)
     plt.plot(polygon[:,0], polygon[:,1], linewidth=0.5, color=color)
     plt.show()
 
