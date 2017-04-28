@@ -70,7 +70,7 @@ chaosGame(50000, sides=6, radius=1, bg=0x0)
 the first argument of the function is the `iterations` of the algorithm, the second
 is the number of `sides` of the generated polygon, the third the `radius` of
 the generated polygon and the fourth and final argument is the `background color`
-as an hexadecimal value `ex: 0xFFFF00`.
+as an hexadecimal value, ex: 0xFFFF00.
 
 ![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/poly_5_.png)
 ![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/poly_6_.png)
