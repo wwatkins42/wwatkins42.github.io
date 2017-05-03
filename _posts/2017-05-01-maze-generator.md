@@ -6,7 +6,7 @@ pspecs: [1 day, 1 person]
 links:
  - source: https://gist.github.com/wwatkins42/1626bbd090e0dbb6a480d22167bc634b
  - download: https://gist.github.com/wwatkins42/1626bbd090e0dbb6a480d22167bc634b/archive/550e36a3a3cdf1247996fd54a9b99ebcf9481c1c.zip
-header: ["https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/mazeGenerator_1.png", 50]
+header: ["https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/mazeGenerator_3.png", 50]
 ---
 
 ##### Objective:
@@ -161,5 +161,5 @@ maze.plot()
 **Example:**
 * `python mazeGenerator.py 256 144`
 
-![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/mazeGenerator_1.png)
+![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/mazeGenerator_3.png)
 ![](https://raw.githubusercontent.com/wwatkins42/wwatkins42.github.io/master/images/mazeGenerator_2.png)
