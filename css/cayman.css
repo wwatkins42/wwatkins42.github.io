@@ -290,6 +290,6 @@ li {
   min-width: 0 !important;
   box-shadow: unset !important;
   display: inline-block;
-  margin: 0em -0.3em -0.5em -0.2em;
-  filter: opacity(40%);
+  margin: 0em -0.3em -0.5em -0.1em;
+  filter: opacity(45%);
 }
