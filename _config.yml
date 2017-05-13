@@ -2,7 +2,7 @@
 title:        William Watkins
 tagline:      A portfolio for 42 projects
 baseurl:      ""
-paginate:     1
+paginate:     10
 
 # About/contact
 author:
