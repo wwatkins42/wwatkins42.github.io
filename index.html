@@ -3,13 +3,34 @@ layout: default
 title: {{ site.name }}
 ---
 
-
-<div class="listing">
-    {% for post in paginator.posts %}
-    <div class="post other link">
-      <h2><span class="mega-octicon octicon-book" style="min-width: 32px;"></span><a href="{{site.url}}{{post.url}}">{{ post.title }}</a></h2>
-      <p class="post-date">{{ post.date | date_to_string }}</p>
-      {{ post.excerpt }}
-    </div>
+<div id="home">
+    <div style="margin-left: 0rem; margin-top: 0rem; -webkit-font-smoothing: antialiased;">
+        Hello! My name is William, I am currently a second year student at school 42 in Paris. I did my first intership at
+        <a href="http://scortex.io/">Scortex</a> in machine learning during 5 months and I am currently looking for a
+        part-time job or an internship.
+  </div>
+  <div style="margin-left: 0rem; margin-top: 1.5rem; -webkit-font-smoothing: antialiased;">
+        I used different kinds of languages from low-level programming with <b>C</b>, to higher-level programming with
+        <b>Python</b> and <b>Ruby</b>, to web development with <b>PHP</b>, <b>HTML/CSS</b> and a bit of <b>Ruby on Rail</b>.
+  </div>
+  <hr style="margin-top: 1rem;">
+  
+  <ul class="posts" style="padding:0;">
+    {% for post in site.posts %}
+      <li style="-webkit-font-smoothing: antialiased;">
+        <code class="highlight-rouge">{{ post.date | date_to_string }}</code>
+        {% if post.categories contains 'graphical' %}
+          <code class="highlight-rouge" style="background-color: #FFF3C9;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% elsif post.categories contains 'algorithm' %}
+          <code class="highlight-rouge" style="background-color: #CCDEFF;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% elsif post.categories contains 'unix' %}
+          <code class="highlight-rouge" style="background-color: #FFD9CE; margin-left: 2.7rem;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% elsif post.categories contains 'other' %}
+          <code class="highlight-rouge" style="background-color: #eaeaea; margin-left: 2.15rem;">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% else %}
+          <code class="highlight-rouge">{{ post.categories }}</code> &rsaquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% endif %}
+      </li>
     {% endfor %}
+  </ul>
 </div>
